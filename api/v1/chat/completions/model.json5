@@ -1,0 +1,17 @@
+{
+  "model": "gpt-5-5:chat",
+  "messages": [
+    {
+      "role": "",
+      "content": null
+    }
+  ],
+  "tools": [],
+  "tool_choice": null,
+  "response_format": null,
+  "reasoning_effort": "low",
+  "temperature": 1,
+  "max_tokens": 1,
+  "top_p": 1,
+  "stream": true
+}
