@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "qubu": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://qubu.ai/api/mcp",
+        "--header",
+        "Authorization: d369192cb0dc2c4fbba6c17d153fbaeb5056a9c1"
+      ]
+    }
+  }
+}
