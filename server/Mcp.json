@@ -1,0 +1,24 @@
+{
+  "name": "Qubu MCP",
+  "version": "1.0.0",
+  "description": "Search, fetch, and run inference on Qubu’s ML platform — models, datasets, notebooks, learning, journal, forum.",
+  "transport": [
+    {
+      "type": "streamable-http",
+      "url": "https://qubu.ai/api/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://qubu.ai/api/mcp/sse"
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "issueUrl": "https://qubu.ai/home/dev/settings?qtab=quai_491425d182f5a1d922be371cfed3c39677a98c70698a3dc5"
+  },
+  "scopes": [
+    "read",
+    "write",
+    "playground"
+  ]
+}
