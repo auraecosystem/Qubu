@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Qubu",
+  "name_for_model": "qubu",
+  "description_for_human": "AI/ML platform: models, datasets, notebooks, learning, journal, forum.",
+  "description_for_model": "Use this plugin to search, fetch, and explore Qubu — a Russian AI/ML platform with public models, datasets, notebooks, courses, journal articles, and forum discussions.",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://qubu.ai/api/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://qubu.ai/icons/common/logo_square.svg",
+  "contact_email": "support@qubu.ai",
+  "legal_info_url": "https://qubu.ai/terms"
+}
